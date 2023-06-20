@@ -1,0 +1,13 @@
+//fazer uma função para calcular a hipotenusa de um triângulo retangulo
+
+var cateto1 = prompt("digite o tamanho do cateto 1")
+var cateto2 = prompt("Digite o tamanho do catero 2")
+
+function calcularHipotenusa (cat1, cat2) {
+  let hip = Math.sqrt( (cat1 *cat1) + (cat2 * cat2) )
+  return hip
+}
+
+var hipotenusa = calcularHipotenusa (cateto1, cateto2)
+
+console.log(`Hipotenusa: ${hipotenusa}.`)
